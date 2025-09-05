@@ -1,15 +1,14 @@
 /* Reset and base styles */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 34px;
     box-sizing: border-box;
 }
-
 body {
     font-family: "Georgia", "Times New Roman", serif;
     line-height: 1.6;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #bd0d0d;
+    background-color: #104f8e;
 }
 
 /* Header styling */
