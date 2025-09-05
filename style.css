@@ -4,10 +4,6 @@ h1 {
 }
 .background{
     background-color: #2a0119;
-     background-image: url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 .profile-img {
   width: 200px;
