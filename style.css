@@ -2,7 +2,7 @@ h1 {
     color: #980a69;
     font-weight: bold;
 }
-background {
+.background{
     background-color: #2a0119;
      background-image: url('background.jpg');
     background-size: cover;
