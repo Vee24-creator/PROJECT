@@ -1,42 +1,70 @@
-
-/* Element selectors */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    color: blue;
+body {
+    font-family: "Georgia", "Times New Roman", serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Navigation styling */
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #3498db;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 h2 {
-    color: green;
-}
-/* ID selector */
-#main-header {
-    background-color: lightgray;
-    padding: 20px 0;
-    text-align: center;
-}
-p {
-    color: rgb(173, 11, 11);
-}
-/* Class selectors */
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-button {
-    background-color: blue;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
 }
 
+/* Footer styling */
 footer {
-    background-color: lightgray;
-    padding: 10px 0;
+    background-color: #34495e;
+    color: white;
     text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
 }
+
