@@ -1,7 +1,7 @@
 .welcome {
     padding: 30px;
     text-align: center;
-        background-color: #4CAF50; /* green background */
+        background-color: #d62323; /* green background */
   color: rgb(181, 32, 104);             /* white text */ 
   border: none;             /* remove border */
   border-radius: 8px;       /* rounded corners */
@@ -47,7 +47,7 @@ body {
     margin-top: 2rem;
 }
 .highlight-text {
-  color: rgb(4, 4, 4);
+  color: rgb(245, 116, 116);
   font-weight: bold;
 }
 .my-footer {
