@@ -1,6 +1,14 @@
-h1 {
-    color: #980a69;
-    font-weight: bold;
+.welcome {
+    padding: 30px;
+    text-align: center;
+        background-color: #4CAF50; /* green background */
+  color: rgb(181, 32, 104);             /* white text */ 
+  border: none;             /* remove border */
+  border-radius: 8px;       /* rounded corners */
+  cursor: pointer;          /* hand cursor on hover */
+  font-size: 16px;          /* text size */
+  font-weight: bold;        /* bold text */
+  box-shadow: 2px 2px 5px rgba(169, 69, 69, 0.2); /* soft shadow */
 }
 h2 {
     color: #34495e;
@@ -37,4 +45,19 @@ body {
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
+}
+.highlight-text {
+  color: rgb(4, 4, 4);
+  font-weight: bold;
+}
+.my-footer {
+  background: #222;
+  color: #eee;
+  text-align: center;
+  padding: 15px;
+}
+.my-footer a {
+  color: #4CAF50;    /* green links */
+  text-decoration: none;
+  margin: 0 8px;
 }
