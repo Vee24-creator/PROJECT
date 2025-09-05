@@ -1,4 +1,11 @@
 h1 {
-    color: #bd0d0d;
+    color: #980a69;
     font-weight: bold;
+}
+background {
+    background-color: #2a0119;
+     background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
