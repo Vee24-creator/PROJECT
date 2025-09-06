@@ -112,6 +112,42 @@ footer a:hover {
   color: #fff;
 }
 
+.columns {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  justify-content: center;
+  flex-wrap: wrap; /* makes it responsive */
+}
+
+.card {
+  flex: 1 1 300px;   /* grow/shrink, min width 300px */
+  background: rgba(28, 28, 28, 0.85);
+  color: #f1f1f1;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px); /* small hover effect */
+}
+
+.card h2 {
+  color: #f9ca24;
+  margin-bottom: 1rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.card ul li::before {
+  content: "✔ ";
+  color: #f9ca24;
+}
 /* Highlight text inside button */
 .highlight-text {
   font-weight: bold;
