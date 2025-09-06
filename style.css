@@ -4,7 +4,7 @@ body {
   padding: 0;
   font-family: "Poppins", Arial, sans-serif;
   background: color #430505;; 
-  color: #580303;
+  color: #f1f1f1;
   line-height: 1.6;
   position: relative;
 }
@@ -13,7 +13,7 @@ body {
   background: #1c1c1c;
   text-align: center;
   padding: 40px 20px;
-  color: #3f0101;
+  color: #fff;
   position: relative;
   z-index: 1;
 }
@@ -28,7 +28,7 @@ body {
   max-width: 700px;
   margin: 10px auto;
   font-size: 1.1rem;
-  color: #390303;
+  color: #ddd;
 }
 
 /* Headings */
@@ -40,7 +40,6 @@ h2 {
   position: relative;
   z-index: 1;
 }
-
 /* Profile section */
 .welcome {
   padding: 50px 30px;
@@ -53,12 +52,10 @@ h2 {
   position: relative;
   z-index: 1;
 }
-
 .welcome p {
-  color: #ddd;
+  color: #0b0b0b;
   font-size: 1.1rem;
 }
-
 .profile-img {
   width: 200px;
   height: 200px;
@@ -67,7 +64,6 @@ h2 {
   margin-bottom: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.4);
 }
-
 /* Button */
 button {
   margin-top: 15px;
@@ -94,12 +90,10 @@ button {
   font-size: 1.1rem;
   margin-bottom: 1rem;
   }
-
 button:hover {
   background: #d4a512;
   transform: scale(1.05);
 }
-
 /* Footer */
 footer {
   background: #111;
