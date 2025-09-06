@@ -84,6 +84,16 @@ button {
   position: relative;
   z-index: 1;
 }
+.contact {
+  padding: 50px 30px;
+  text-align: center;
+  margin: 3rem 0
+}
+.contact h2 {
+  color: #f9ca24;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  }
 
 button:hover {
   background: #d4a512;
