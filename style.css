@@ -6,43 +6,8 @@ body {
   background: #0f0f0f;  /* simple dark background */
   color: #f1f1f1;
   line-height: 1.6;
-  overflow: hidden; /* hide scrollbars from floating orbs */
   position: relative;
 }
-
-/* Floating orbs */
-body::before,
-body::after {
-  content: "";
-  position: absolute;
-  border-radius: 50%;
-  background: rgba(255, 255, 255, 0.05); /* soft glow */
-  animation: float 20s ease-in-out infinite;
-  z-index: 0;
-}
-
-body::before {
-  width: 300px;
-  height: 300px;
-  top: -100px;
-  left: -100px;
-}
-
-body::after {
-  width: 250px;
-  height: 250px;
-  bottom: -120px;
-  right: -120px;
-  animation-delay: 10s;
-}
-
-/* Floating animation */
-@keyframes float {
-  0%   { transform: translateY(0) }
-  50%  { transform: translateY(-60px) }
-  100% { transform: translateY(0) }
-}
-
 /* Header */
 #main-header {
   background: #1c1c1c;
