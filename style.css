@@ -13,7 +13,7 @@ body {
   background: #1c1c1c;
   text-align: center;
   padding: 40px 20px;
-  color: #fff;
+  color: #3f0101;
   position: relative;
   z-index: 1;
 }
@@ -28,7 +28,7 @@ body {
   max-width: 700px;
   margin: 10px auto;
   font-size: 1.1rem;
-  color: #ddd;
+  color: #390303;
 }
 
 /* Headings */
